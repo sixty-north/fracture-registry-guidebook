@@ -35,3 +35,10 @@ make.bat html
 
 If everything goes smoothly, the output will be the `build` directory. You can
 open up `build/html/index.html` in your browser to view it.
+
+## Hosting on github
+
+We currently host the built version of these docs on sixty-north.github.io. As
+we make changes, we should redeploy there. To do that, run `make html`, copy the
+results from `build/html` to the correct (hopefully obvious) location in the
+deployment repo, and push them up. It should be that simple.
